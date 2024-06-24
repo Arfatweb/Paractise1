@@ -1,0 +1,1012 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Potta+One&display=swap');
+/* Common CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root{
+    --primary-font: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --Three-font: "Potta One", system-ui;
+    --fist-color: #353535;
+    --paragraph-color: #7a7a7a;
+    --bg-color:white;
+    --btn-color:  #fc0;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    font-family: var(--second-family);
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+body a:hover{
+    color:rgb(226, 104, 11);
+}
+
+ul li{
+    list-style: none;
+}
+
+
+/* Button Css */
+body .btnOne{
+padding: 16px 45px 16px 45px;
+background-color: #fc0;
+border-radius: 20px;
+border:none;
+transform: scaleX(1);
+transition: 0.5s;
+}
+button{
+    margin-right: 15px;
+}
+body .btnOne a{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #3e2a2a;
+    overflow-x: hidden;
+}
+
+.btnOne:hover  {
+    color:white;
+transform: scale(1.1);
+
+}
+body .btnoutLock{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: black;
+    padding: 16px 40px 16px 40px;
+    border-radius: 20px;
+} 
+body .btnoutLock a{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #190f0f;
+}  
+
+/* Button Css And */
+
+body p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.6rem;
+    font-weight: 400;
+    color:var(--paragraph-color);
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    padding: 0;
+    margin: 0;
+}
+
+/* Common CSS And*/
+
+/* Header degin CSS */
+#header .logo h2{
+    font-family: "Potta One", system-ui !important;
+    font-weight: 400;
+    font-size: 30px;
+    color: #161615;
+    margin-left: 10px;
+}
+#header .logo h2 span{
+ color: rgb(230, 212, 14);
+ font-family: "Potta One", system-ui !important;
+
+}
+#header .hederFile{
+   padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .headerRightMenu{
+    margin-right: 60px;
+}
+
+
+#header .headerRightMenu ul{
+    padding-top: 5px;
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#header .headerRightMenu ul li{
+    margin-inline:20px;
+}
+
+.barIcon {
+    font-size: 30px;
+    color: #0d0b0b;
+    line-height: 80px;
+    margin-right: -170px;
+    border: none;
+    background: none;
+    display: none;
+}
+.smallmenu li {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.smallmenu li a{
+    font-size: 30px;
+}
+.cancel{
+    font-size: 20px;
+}
+.offcanvas-header .logo h2 
+  {
+    font-family: "Potta One", system-ui !important;
+    font-weight: 400 !important;
+    font-size: 30px !important;
+    color: #161615 !important;
+    margin-left: 10px !important;
+}
+.offcanvas-header .logo h2 span {
+    color: rgb(230, 212, 14);
+    font-family: "Potta One", system-ui !important;
+}
+ .hederFile{
+    position: relative;
+ }
+
+/* Header degin CSS And*/
+
+
+/* Profile Css Start */
+#profile{
+    padding: 80px 0 120px 0;
+}
+
+#profile .profileText h5{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+    margin-top: 60px;
+}
+
+#profile .profileText h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 60px;
+    color: #353535;
+    padding:15px 0 25px;
+}
+
+#profile .profileText p{
+    margin-bottom: 45px;
+}
+#profile .ProfileImg img{
+    width: 584px;
+    height: 623px;
+}
+
+#profile .icon{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0 0 0;
+}
+#profile .icon ul{
+    display: flex;
+    flex-wrap: wrap;
+   margin-top: auto;
+   transform: translateY(-30px);
+
+}
+
+#profile .icon h5{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 180%;
+    color: #353535;
+   transform: translateY(-25px);
+    margin-right: 20px;
+}
+#profile .icon ul li a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 25px;
+    color: #353535;
+    margin-inline: 10px;
+}
+#profile .icon ul li a:hover{
+    color: rgb(24, 214, 195);
+}
+
+/* Profile Css And */
+
+
+/* About Banner */
+#aboutMe{
+    background-color: #fc0;
+    margin-inline: 15px;
+    position: relative;
+}
+#aboutMe .aboutImg2 {
+    position: absolute;
+    bottom:0;
+    right: 100px;
+}
+#aboutMe .bannerText{
+    padding: 100px;
+
+}
+#aboutMe .bannerText h3{
+font-family: var(--primary-font);
+font-weight: 700;
+font-size: 50px;
+color: #353535;
+
+}
+#aboutMe .bannerText p{
+font-weight: 400;
+font-size: 20px;
+line-height: 180%;
+padding: 25px 0 45px;
+
+}
+#aboutMe .bannerText .btnoutLock{
+   border:1px solid black;
+   background-color: #fc0;
+   transition: 1s;
+   
+}
+#aboutMe .bannerText .btnoutLock:hover a{
+    color:white;
+    font-size: 22px;
+    background-color: #fc0;
+    transition: 1s;
+ }
+/* About Banner And*/
+
+
+/* Blogs Css */
+#blogs .blog {
+    margin: 80px 0 80px;
+    
+}
+#blogs .blog .bolger{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    text-align: center;
+    padding: 30px 30px;
+    margin-inline: 20px;
+    width: 365px;
+    height: 360px;
+}
+#blogs .blog .bolger h5{
+font-weight: 600;
+font-size: 20px;
+line-height: 180%;
+text-align: center;
+color: #353535;
+padding: 10px 0 10px;
+}
+#blogs .blog .bolger p{
+font-weight: 400;
+font-size: 18px;
+line-height: 190%;
+text-align: center !important;
+color: #7a7a7a;
+}
+/* Blogs Css And*/
+
+
+/* Branding Banner Start */
+#branding{
+    padding: 80px 0 100px;
+}
+.brand{
+    background-color: #fc0;
+    border-radius: 50px;
+    position: relative;
+}
+#branding .brand .brandText{
+   padding-left: 120px;
+}
+#branding .brand .brandText h4{
+font-weight: 700;
+font-size: 44px;
+color: #353535;
+margin-top: 85px;
+}
+#branding .brand .brandText p{
+font-weight: 400;
+width: 500px;
+font-size: 20px;
+line-height: 180%;
+color: #353535;
+padding:21px 0 35px;
+}
+
+#branding .brand .brandText .btnoutLock{
+   background-color: #fc0;
+   color: #161615;
+}
+
+.aboutImg3{
+    position: absolute;
+    top: -30px;
+    right: 70px;
+}
+
+.aboutImg4{
+    position: absolute;
+    right: 360px;
+    bottom: 120px;
+}
+/* Branding Banner And */
+
+
+/* Help point Css */
+#helpPoint .website .webLink ul li h5{
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+color: #353535;
+}
+#helpPoint .website .webLink{
+    border-radius: 20px;
+    width: 380px;
+    height: 93px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+}
+#helpPoint .website .webLink ul{
+    margin-left: 25px;
+}
+#helpPoint .website .webLink ul li p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+    color: #353535;
+}
+#helpPoint .website .webLink{
+   padding:20px 30px 20px;
+   margin-bottom: 25px;
+}
+#helpPoint .website .webLink img{
+    width: 60px;
+    height: 60px;
+}
+#helpPoint .helpText h3{
+font-size: 40px;
+text-align: right;
+color: #353535;
+width: 821px;
+}
+
+#helpPoint .helpItems{
+    position: relative;
+    margin-bottom: 200px;
+}
+
+#helpPoint .Ratting{
+    right: 0;
+    top: 210px;
+    position: absolute;
+}
+#helpPoint .Ratting ul li{
+   margin-left: 50px;
+   padding:0 30px 0 0;
+}
+#helpPoint .Ratting ul li h3{
+    font-size: 40px;
+    font-size: 700;
+    font-family: var(--primary-font);
+   
+}
+#helpPoint .helpText p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: right;
+    line-height: 190%;
+    width: 839px;
+    height: 114px;
+}
+#helpPoint .Ratting ul li p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    line-height: 180%;
+}
+/* Help point Css And */
+
+
+/* Work Experience CSS  */
+#experience {
+    padding-bottom: 100px;
+    
+}
+#experience h3{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: var(--Three-font);
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#experience h5{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    font-family: var(--Three-font);
+}
+#experience p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    line-height: 180%;
+}
+
+#experience .addressOne{
+    position: relative;
+    margin-bottom: 30px;
+}
+#experience .address{
+    border-right: 2px dashed black;
+}
+
+#experience .address::after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(13, 144, 61);
+    position: absolute;
+    left: 544px;
+    top: -18px;
+}
+
+#experience .address::before{
+    content: '' !important;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+   border: 2px dashed black;
+    position: absolute;
+    left: 538px !important;
+    top: -24px;
+
+}
+
+#experience .workExperience{
+    padding-left: 60px;
+}
+
+#experience .addressTwo{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#experience .addressTwo .address::after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(47, 12, 220);
+    position: absolute;
+    left: 544px;
+    top: -18px;
+}
+
+#experience .addressTwo .address::before{
+    content: '';
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+   border: 2px dashed black;
+    position: absolute;
+    left: 538px;
+    top: -24px;
+}
+#experience .addressThree{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#experience .addressThree .address::after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(220, 12, 185);
+    position: absolute;
+    left: 544px;
+    top: -18px;
+}
+
+#experience .addressThree .address::before{
+    content: '';
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+   border: 2px dashed black;
+    position: absolute;
+    left: 538px;
+    top: -24px;
+}
+/* Work Experience CSS And */
+
+
+/* Expert part CSS */
+#expert .expertText h2{
+    font-size: 40px;
+    font-family: var(--Three-font);
+    font-weight: 700;
+}
+
+#expert .expertText p{
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 180%;
+    padding: 40px 0 30px;
+}
+
+#expert .expertProges{
+    padding-left: 100px;
+}
+#expert .btnoutLock2{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 60px;
+}
+#expert .expertProges .btnoutLock2:hover{
+    border: 1px solid #0d0b0b;
+    transition: 1s;
+}
+#expert .expertProges{
+    position: relative;
+}
+#expert .expertProges .expertProgesBer h5 span{
+    margin-left: 300px;
+    font-size: 20px;
+    color: rgb(255, 68, 0);
+}
+#expert .expertProges .expertProgesBer{
+    padding: 50px 0 10px;
+}
+
+#expert .expertProges .expertProgesBer::after{
+    content: '';
+    width: 430px;
+    height: 5px;
+    background-color: rgb(139, 135, 142);
+    position: absolute;
+    margin-top: 12px;
+}
+
+#expert .expertProges .expertProgesBer::before{
+    content: '';
+    width: 400px;
+    height: 5px;
+    background-color: rgb(255, 47, 0);
+    position: absolute;
+    top: 143px;
+    z-index: 99;
+}
+
+#expert .expertProges .expertProgesBer2 h5 span{
+    margin-left: 300px;
+    font-size: 20px;
+    color: rgb(25, 0, 255);
+}
+#expert .expertProges .expertProgesBer2{
+    margin: 60px 0 12px;
+
+}
+#expert .expertProges .expertProgesBer2::after{
+    content: '';
+    width: 430px;
+    height: 5px;
+    background-color: rgb(139, 135, 142);
+    position: absolute;
+    margin-top: 12px;
+}
+
+#expert .expertProges .expertProgesBer2::before{
+    content: '';
+    width: 400px;
+    height: 5px;
+   background-color: rgb(25, 0, 255);
+    position: absolute;
+    top: 237px;
+    z-index: 99;
+}
+
+
+
+
+#expert .expertProges .expertProgesBer3 h5 span{
+    margin-left: 300px;
+    font-size: 20px;
+    color: rgb(225, 9, 211);
+}
+#expert .expertProges .expertProgesBer3{
+    margin: 60px 0 12px;
+
+}
+#expert .expertProges .expertProgesBer3::after{
+    content: '';
+    width: 430px;
+    height: 5px;
+    background-color: rgb(139, 135, 142);
+    position: absolute;
+    margin-top: 12px;
+}
+
+#expert .expertProges .expertProgesBer3::before{
+    content: '';
+    width: 400px;
+    height: 5px;
+   background-color: rgb(225, 9, 211);
+    position: absolute;
+    top: 321px;
+    z-index: 99;
+}
+
+
+
+#expert .expertProges .expertProgesBer4 h5 span{
+    margin-left: 300px;
+    font-size: 20px;
+    color: rgb(7, 192, 238);
+}
+#expert .expertProges .expertProgesBer4{
+    margin: 60px 0 12px;
+
+}
+#expert .expertProges .expertProgesBer4::after{
+    content: '';
+    width: 430px;
+    height: 5px;
+    background-color: rgb(139, 135, 142);
+    position: absolute;
+    margin-top: 12px;
+}
+
+#expert .expertProges .expertProgesBer4::before{
+    content: '';
+    width: 400px;
+    height: 5px;
+   background-color: rgb(7, 192, 238);
+    position: absolute;
+    top: 405px;
+    z-index: 99;
+}
+/* Expert part CSS And*/
+
+
+/* Service Card Css */
+#service{
+    background-color: #FFF7D5;
+    margin: 130px 0 100px;
+    height: 883px;
+}
+
+#service .serviceHeading h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--Three-font);
+    text-align: center;
+    padding-top: 72px;
+}
+#service .serviceHeading p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    line-height: 180%;
+    text-align: center;
+    transform:translateX(55%);
+    width: 613px;
+    padding: 15px 0 80px;
+}
+#service .serviceCard{
+    text-align: center;
+    
+    
+}
+
+#service .serviceCard .card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 350px;
+    height: 442px;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+#service .serviceCard .card img{
+    width: 88px;
+    height: 88px;
+    transform: translateX(130px);
+    margin: 30px 0 20px;
+}
+
+#service .serviceCard .card h4{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+}
+#service .serviceCard .card p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    line-height: 170%;
+    color:#7a7a7a;
+    padding: 25px 50px 70px 50px;
+}
+
+#service .serviceCard .card:hover{
+    background-color: #FFCC00;
+    transform: scaleY(1.1)
+}
+
+/* Service Card Css And */
+
+
+/* Feedback Css Start */
+
+#feedback{
+    background-color: #FBFBFB;
+    padding: 92px 0;  
+}
+#feedback .feedbackHeading h4{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+   
+}
+
+#feedback .feedbackHeading p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    line-height: 180%;
+    width: 703px;
+    height: 64px;
+    padding-top: 12px;
+}
+
+#feedback .feedbackMune img{
+   width: 511px;
+   height: 511px;
+   padding-top: 70px;
+}
+
+#feedback .feedbackMune .feedbackText p{
+    font-size: 20px;
+    font-family: var(--second-family);
+    line-height: 180%;
+    color:#7a7a7a;
+    transform: translateY(200px);
+ }
+
+ #feedback .feedbackMune .feedbackText h5{
+    font-size: 30px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    transform: translateY(200px);
+    padding-top: 25px;
+ }
+/* Feedback Css And */
+
+
+/* Blog Post Start */
+#blogs h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--Three-font);
+    text-align: end;
+    padding: 95px 0 112px;
+}
+#blogs .blogPost .blogText{
+    margin-inline: 20px;
+}
+#blogs .blogPost .blogText p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    padding-right:50px;
+    
+}
+
+#blogs .blogPost{
+    margin-top: 40px;
+}
+#blogs .blogPost .blogText p b{
+    padding-left: 120px;
+}
+#blogs .blogPost .blogText h4{
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: 150%;
+    font-family: var(--primary-font);
+    padding: 13px 0 27px;
+
+}
+
+#blogs .blogPost .blogText a{
+    font-size: 25px;
+    font-weight: 400px;
+    font-family: var(--primary-font);
+}
+/* Blog Post And */
+
+
+/* Subscribe Css */
+#subscribe .text {
+    padding: 117px 76px 0 40px;
+}
+.subscribeMenu{
+    background-color: rgb(241, 194, 5);
+    height: 295px;
+    border-radius: 30px;
+}
+#subscribe{
+    padding: 150px 0;
+}
+
+#subscribe .text p{
+    font-size: 18px;
+    font-weight: 500;
+}
+#subscribe .text h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+#subscribe .subscribeBtn input{
+    background-color: rgb(241, 225, 161);
+    font-size: 25px;
+    color:rgba(0, 0, 0, 0.951);
+    background-color: #FBFBFB;
+    padding: 20px 40px 20px 30px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    width: 380px;
+}
+#subscribe .subscribeBtn{
+    margin-top: 110px;
+}
+#subscribe .subscribeBtn button{
+   background-color: #FF6565;
+   padding: 20px 25px 20px 25px;
+   border-radius: 0 20px 20px 0;
+   border: none;
+
+}
+
+#subscribe .subscribeBtn button a{
+    font-size: 25px;
+    font-weight: 500;
+ }
+/* Subscribe Css And*/
+
+
+
+/* FOOTER */
+#footer{
+    background-color: #575757;
+    height: 500px;
+}
+.footerMune{
+    padding:80px 0 0 0;
+}
+#footer .logo h2{
+    font-family: "Potta One", system-ui;
+    font-weight: 300;
+    font-size: 50px;
+    color: #e0e0d5;
+    padding-bottom: 180px;
+}
+#footer .logo h2 span{
+ color: rgb(230, 212, 14);
+ font-family: "Potta One", system-ui;
+
+}
+#footer .footerMune .footerLeft ul li{
+    font-size:18px;
+    font-weight: 400;
+    color: #e0e0d5;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+#footer .footerMune .footerLeft ul p{
+    font-size:22px;
+    font-weight: 400;
+    color: #f2f2e9;
+    
+}
+
+#footer .footerMune .footerMiddle h4{
+    font-size: 40px;
+    color: #FBFBFB;
+    font-weight: 700;
+    font-family: var(--Three-font);
+
+}
+
+#footer .footerMune .footerMiddle p{
+    font-size: 20px;
+    color: #d6d1d1;
+    font-weight: 400;
+    font-size: var(--primary-font);
+    width: 420px;
+    line-height: 180%;
+    padding: 15px 0 84px;
+
+}
+
+#footer .footerMune .footerMiddle a ul li{
+    font-size: 20px;
+    color: #d6d1d1;
+    font-weight: 400;
+    font-size: var(--primary-font);
+  
+}
+#footer .footerMune .footerMiddle a ul p{
+    font-size: 30px !important;
+    color: #f1ebeb;
+    font-weight: 400;
+    font-size: var(--primary-font);
+    padding: 0;
+   
+}
+
+#footer .footerMune .footerEnd button{
+     transform: translateX(200px);
+}
+
+#footer .footerMune .footerEnd .icon{
+    padding-top: 200px;
+    
+}
+#footer .footerMune .footerEnd .icon h5{
+    font-size: 22px;
+    font-weight: 500;
+    color: #d6d1d1;
+    
+}
+#footer .footerMune .footerEnd .icon ul li {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #393934;
+    margin-left: 20px;
+}
+#footer .footerMune .footerEnd .icon ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #d6d1d1;
+    padding-left: 8px;
+}
+#footer .footerMune .footerEnd .icon ul li a:hover{
+    color: #eb9809;
+}
+/* FOOTER AND */

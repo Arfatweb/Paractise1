@@ -1,0 +1,743 @@
+/* XXL */
+@media (max-width:1400px) {
+    
+}
+
+/* XL */
+@media (min-width:1200px) and (max-width:1399.99px){
+    #profile {
+        padding: 58px 0 120px 0;
+        
+    }
+    #blogs .blog .bolger {
+        width: 336px;
+        height: 345px;
+    }
+
+    #helpPoint .Ratting ul li h3 {
+        font-size: 35px;
+    }
+
+    #helpPoint .Ratting ul li p {
+            font-size: 20px;     
+    }
+
+    #experience .address::after {
+        content: '';
+        left: 469px;
+    }
+    #experience .address::before {
+        content: '';
+        left: 463px;
+    }
+
+    #experience .addressTwo .address::after{
+        content: '';
+        left: 469px;
+    }
+    
+    #experience .addressTwo .address::before{
+        content: '';
+        left: 463px;;
+    }
+   
+    #experience .addressThree .address::after{
+        content: '';
+        left: 469px;
+    }
+    
+    #experience .addressThree .address::before{
+        content: '';
+        left: 463px;;
+    }
+
+    #service .serviceCard .card {
+        width: 325px;
+        height: 474px;
+    }
+
+    #service {
+        background-color: #FFF7D5;
+        margin: 130px 0 73px;
+        height: 842px;
+    }
+
+    #service {
+        background-color: #FFF7D5;
+        margin: 130px 0 73px;
+        height: 863px;
+    }
+
+    #service .serviceCard .card img {
+        width: 76px;
+        height: 76px;
+        transform: translateX(122px);
+        margin: 35px 0 19px;
+    }
+    #subscribe .subscribeBtn input {  
+        width: 350px;
+    }
+    body .btnOne {
+        padding: 16px 36px 16px 37px;
+    }
+
+    #service .serviceHeading p {
+        line-height: 170%;
+        text-align: center;
+        transform: translateX(45%);
+
+    }
+    #footer .footerMune .footerMiddle a ul p {
+        font-size: 28px !important; 
+    }
+    #subscribe {
+        padding: 130px 0;
+    }
+    #footer {
+        height: 460px;
+    }
+}
+
+/* LG */
+@media (min-width:992px) and (max-width:1199.99px){
+    #header .logo h2 {
+        margin-left: 40px;
+    }
+    #profile .ProfileImg img {
+        width: 493px;
+        height: 551px;
+    }
+    #profile .profileText h2 {
+        font-size: 50px;
+    }
+    body .btnoutLock {
+        padding: 12px 21px 13px 21px;
+    }
+    #profile .icon {
+        padding: 29px 0 0 0;
+    }
+    #aboutMe .banner .bannerImg img {
+        width: 450px !important;
+        height: 500px !important;
+    }
+    #aboutMe .bannerText h3 {
+        font-size: 45px;
+    }
+    #aboutMe .bannerText p {
+        font-size: 20px;
+        line-height: 170%;
+        padding: 26px 0 49px;
+    }
+    #aboutMe .bannerText{
+        padding: 100px 10px 100px 170px;
+    }
+    #aboutMe{
+       border-radius: 50px;
+     width: 1020px;
+    }
+    #aboutMe .aboutImg2 img{
+        width: 180px;
+        height: 100px;
+    }
+    #blogs .blog .bolger {
+            padding: 40px 19px;
+            margin-inline: 20px;
+            width: 657px !important;
+            height: 368px; 
+    }
+    #blogs .blog{
+        margin-left: 30px;
+    }
+    #branding .brand{
+        margin-left: 25px;
+    }
+    #branding .brand .brandimg img{
+        width: 400px;
+        height: 450px;
+    }
+    #branding .brand .brandText p {
+        font-size: 17px;
+        line-height: 181%;
+        padding: 21px 0 65px;
+    }
+    #branding .brand .brandText h4 {
+        font-size: 40px;
+    }
+    body .btnoutLock a {
+        font-size: 18px;
+    }
+    .aboutImg4 {
+        right: 275px;
+    }
+    #branding {
+        padding: 31px 0 100px;
+    }
+    #helpPoint{
+        height: 500px;
+    }
+    #helpPoint .helpText p {
+        font-size: 18px;
+        text-align: right;
+        line-height: 188%;
+        width: 539px;
+        margin-left: 100px;
+        padding-top: 30px;
+    }
+    #helpPoint .Ratting ul li h3 {
+        font-size: 32px;
+        padding-top: 40px;
+    }
+    #helpPoint .helpText h3 {
+        font-size: 40px;
+        width: 662px;
+    }
+    /* Expereance */
+    #experience{
+        margin-left: 60px !important;
+    }
+    #experience h3 {
+        font-size: 40px;
+    }
+    #experience h5 {
+        font-size: 24px;
+    }
+    #experience p {
+        font-size: 18px;
+    }
+    #experience .address::after {
+        content: '';
+        left: 307px;
+    }
+    #experience .address::before {
+        content: '';
+        left: 301px;
+    }
+
+    #experience .addressTwo .address::after {
+        content: '';
+        left: 307px;
+    }
+    #experience .addressTwo .address::before {
+        content: '';
+        left: 301px;
+
+    }   #experience .addressThree .address::after {
+        content: '';
+        left: 307px;
+    }
+    #experience .addressThree .address::before {
+        content: '';
+        left: 301px;
+    } 
+    
+    
+    /* Expert Part */
+    #expert .expertText h2 {
+        font-size: 37px;
+    }
+    #expert .expertText p {
+        font-size: 18px;
+        line-height: 173%;
+        padding: 40px 0 40px;
+    }
+    body .btnOne {
+        padding: 14px 33px;
+    }
+    body .btnOne a {
+        font-size: 18px;
+    }
+    #expert .btnoutLock2 {
+        padding: 10px 24px;
+        margin-right: 31px;
+    }
+    a {
+        font-size: 16px; 
+    }
+ 
+    /* Services */
+    #service .serviceHeading h3 {
+        font-size: 36px;
+        padding-top: 62px;
+    }
+
+    #service .serviceHeading p {
+        font-size: 18px;
+        line-height: 166%;
+        transform: translateX(30%);
+    }
+    #service {
+        margin: 119px 0 7px 61px;
+        height: 941px;
+    }
+    #service .serviceCard .card img {
+        width: 66px;
+        height: 65px;
+        transform: translateX(100px);
+    }
+    #service .serviceCard .card h4 {
+        font-size: 23px;
+    }
+    #service .serviceCard .card p {
+        font-size: 17px;
+        line-height: 182%;
+        padding: 17px 29px 7px 26px;
+    }
+    #service .serviceCard .card {
+        width: 265px;
+        height: 377px;
+        margin-left: 28px;
+    }
+    #service{
+       height: 730px;
+    }
+    /* Feedback Responsive */
+    #feedback .feedbackHeading p {
+        font-size: 18px;
+        line-height: 144%;
+    }
+    #feedback .feedbackMune img {
+        width: 445px;
+        height: 450px;
+    }
+    #feedback .feedbackMune .feedbackText p {
+        font-size: 19px;
+        line-height: 157%;
+        transform: translateY(197px);
+        margin-left: 50px;
+    }
+    #feedback .feedbackMune .feedbackText h5 {
+        font-size: 27px;
+        transform: translateY(195px);
+        padding-top: 25px;
+        margin-left: 43px;
+    }
+    /* blogs */
+    #blogs h2 {
+        font-size: 33px;
+        padding: 58px 0 57px;
+    }
+    #blogs .blogOne .blogImg img{
+        width: 250px;
+        height: 250px;
+    }
+    #blogs .blogPost .blogText p {
+        font-size: 11px;
+        padding-right: 0px;
+    }
+    #blogs .blogPost .blogText p b {
+        padding-left: 57px;
+    }
+    #blogs .blogPost .blogText h4 {
+        font-size: 29px;
+        line-height: 151%;
+        padding: 0px 0 9px;
+    }
+
+    /* Subscribe */
+    #subscribe .subscribeBtn button a {
+        font-size: 20px;
+    }
+    #subscribe .subscribeBtn button {
+        padding: 17px 20px 17px 20px;
+    }
+    #subscribe .subscribeBtn input {
+        font-size: 21px;
+        padding: 17px 9px 17px 27px;
+        border-radius: 20px 0 0 20px;
+        width: 314px;
+    }
+    #subscribe .text p {
+        font-size: 17px;
+    }
+    #subscribe .text h3 {
+        font-size: 32px;
+    }
+    /* Footer */
+    #footer .logo h2 {
+        font-size: 36px;
+    }
+    #footer .footerMune .footerMiddle h4 {
+        font-size: 36px;
+    }
+    #footer .footerMune .footerMiddle a ul p {
+        font-size: 26px !important;
+    }
+    #footer .footerMune .footerEnd button {
+        transform: translateX(157px);
+    }
+}
+
+/* md */
+@media (min-width:768px) and (max-width:991.99px){
+    
+}
+
+/* sm */
+@media (min-width:576px) and (max-width:767.99px){
+   
+ .barIcon{
+    display: block;
+ } 
+
+#header .logo h2 {
+    font-size: 42px;
+    color: #161615;
+    margin: 17px;
+}
+#header .headerRightMenu ul{
+    display: none;
+}
+
+/* Profile */
+#profile {
+    padding: 0px 0 113px 0;
+}
+#profile .profileText h2 {
+    font-size: 41px; 
+}
+#profile .profileText h5 {
+    font-size: 20px;
+}
+body .btnOne {
+    padding: 13px 41px 13px 41px;
+  
+}
+body .btnoutLock {
+    font-size: 0px;
+    line-height: 170%;
+    padding: 13px 25px 13px 33px;
+}
+#profile .ProfileImg img {
+    width: 426px;
+    height: 425px;
+}
+#profile .icon h5 {
+    line-height: 259%;  
+}
+#profile .icon {
+    padding: 4px 0 0 0;
+}
+#aboutMe .bannerImg img{
+    width: 436px;
+    height: 416px;
+}
+#aboutMe .bannerText h3 {
+    font-size: 43px;
+}
+#aboutMe .bannerText p {
+    font-size: 18px;
+    line-height: 167%;
+}
+#aboutMe .bannerText {
+    padding: 41px;
+}
+#aboutMe .bannerText p {
+    padding: 22px 0 45px;
+}
+#aboutMe .aboutImg2 img{
+   display: none;
+}
+
+/* Blogs */
+#blogs .blog .bolger {
+    width: 410px;
+    height: 360px;
+    margin-top: 30px;
+}
+#blogs .blog .bolger h5 {
+    font-weight: 700;
+    font-size: 33px;
+}
+#blogs .blog .bolger p {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 177%;
+}
+
+/* branding */
+#branding .brandimg img{
+    width: 425px;
+    height: 456px;
+}
+#branding .brandimg img {
+    width: 457px;
+    height: 423px;
+}
+#branding .aboutImg3 img {
+ display: none;
+}
+#branding .aboutImg4{
+    display: none;
+}
+#branding .brand .brandText {
+    padding-left: 31px;
+    padding-bottom: 29px;
+}
+#branding .brand .brandText h4 {
+    font-size: 39px;
+    margin-top: 37px;
+}
+#branding .brand .brandText p {
+    font-size: 18px;
+    line-height: 175%;
+    padding: 16px 0 26px;
+}
+body .btnoutLock {
+    line-height: 170%;
+    padding: 10px 17px 10px 17px;
+}
+
+/* HelpPoint */
+#helpPoint .helpText h3 {
+    font-size: 34px;
+    text-align: left;
+    font-weight: 700;
+    padding-top: 20px;
+}
+#helpPoint .helpText p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    line-height: 184%;
+    width: 478px;
+    padding-top: 20px;
+}
+#helpPoint .Ratting{
+    margin-top: 400px;
+    margin-right: 100px;
+}
+#helpPoint .Ratting ul li h3 {
+    font-size: 32px;
+}
+#helpPoint .Ratting ul li p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* experience */
+#experience h3 {
+    font-size: 33px;
+    margin-bottom: 59px;
+}
+#experience h5 {
+    font-size: 24px;
+}
+#experience p {
+    font-size: 16px;
+    line-height: 145%;
+}
+#experience .workExperience {
+    padding-left: 4px;
+    padding-top: 30px;
+}
+#experience .address{
+    border-right:none;
+}
+#experience{
+    border: none;
+}
+
+#experience .address::after{
+    content: '';
+   display: none;
+}
+#experience .address::before{
+    content: '';
+   display: none;
+}
+#experience .address1::after{
+    content: '';
+   display: none;
+}
+#experience .address1::before{
+    content: '';
+   display: none;
+}
+#experience .address2::after{
+    content: '';
+   display: none;
+}
+#experience .address2::before{
+    content: '';
+   display: none;
+}
+
+/* Expert */
+#expert .expertText h2 {
+    font-size: 36px;
+}
+#expert .expertText p {
+    font-size: 18px;
+    line-height: 172%;
+    padding: 18px 0 33px;
+}
+#experience {
+    padding-bottom: 52px;
+}
+body .btnOne {
+    padding: 11px 28px 11px 28px;
+    margin-bottom: 30px;
+}
+body .btnOne a {
+  font-size: 17px;
+}
+#expert .expertProges {
+    padding-left: 10px;
+}
+
+/* service */
+#service .serviceHeading h3 {
+    font-size: 35px;
+    padding-top: 31px;
+}
+#service .serviceHeading p {
+    font-size: 18px;
+    line-height: 178%;
+    transform: translateX(9%);
+    width: 455px;
+    padding: 12px 0 61px;
+}
+#service .serviceCard .card {
+    width: 380px;
+    height: 442px;
+    margin-left: 60px;
+}
+#service .serviceCard .card img {
+    width: 93px;
+    height: 84px;
+    transform: translateX(138px);
+}
+#service .serviceCard .card h4 {
+    font-size: 30px;
+}
+#service .serviceCard .card{
+    margin-bottom: 30px;
+}
+#service .serviceCard .card p {
+    font-size: 19px;
+    line-height: 165%;
+    padding: 18px 33px 50px 41px;
+}
+#service {
+    height: 1654px;
+}
+
+/* feedback */
+#feedback .feedbackHeading h4 {
+    font-size: 35px;
+}
+#feedback .feedbackHeading p {
+    font-size: 18px;
+    line-height: 174%;
+    width: 525px;
+    height: 65px;
+    padding-top: 12px;
+}
+#feedback .feedbackMune img {
+    width: 414px;
+    height: 405px;
+    padding-top: 41px;
+}
+#feedback .feedbackMune .feedbackText p {
+    font-size: 18px;
+    line-height: 179%;
+    transform: translateY(60px);
+}
+#feedback {
+    padding: 30px 0 95px 0;
+}
+#feedback .feedbackMune .feedbackText h5 {
+    font-size: 27px;
+    transform: translateY(-128px);
+    padding-top: 15px;
+}
+
+/* blogs */
+#blogs .blogOne{
+    margin-bottom: 30px;
+}
+#blogs .blogOne .blogImg img {
+   width: 100px;
+   height: 100px;
+}
+#blogs .blogOne .blogImg img {
+    width: 174px;
+    height: 154px;
+}
+#blogs .blogPost .blogText p {
+    font-size: 10px;
+}
+#blogs .blogPost .blogText h4 {
+    font-size: 24px;
+    line-height: 140%;
+    padding: 0px 0 17px;
+}
+#blogs .blogPost .blogText a {
+    font-size: 21px;
+}
+
+
+/* subscribe */
+#subscribe {
+    padding: 37px 0;
+}
+.subscribeMenu {
+    height: 245px;
+}
+#subscribe .text h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+#subscribe .text {
+    padding: 33px 55px 0 62px;
+}
+#subscribe .subscribeBtn input {
+    font-size: 20px;
+    padding: 14px 90px 14px 25px;
+    width: 300px;
+    transform: translateY(-77px);
+}
+#subscribe .subscribeBtn button a {
+    font-size: 20px;
+}
+#subscribe .subscribeBtn button {
+    padding: 14px 17px 14px 19px;
+    transform: translateY(-77px);
+}
+
+/* Footer */
+.footerMune {
+    padding: 52px 0 0 0;
+    height: 727px;
+}
+#footer {
+    background-color: #575757;
+    height: 745px;
+}
+#footer .logo h2 {
+    font-size: 42px;
+    padding-bottom: 71px;
+}
+#footer .footerMune .footerMiddle h4 {
+    font-size: 32px;
+    padding-top: 30px;
+}
+#footer .footerMune .footerMiddle a ul p {
+    font-size: 24px !important;
+}
+#footer .footerMune .footerMiddle p {
+    padding: 15px 0 31px;
+    margin-bottom: 30px;
+}
+#footer .footerMune .footerEnd button {
+    transform: translateX(17px);
+}
+#footer .footerMune .footerEnd .icon {
+    padding-top: 18px;
+}
+}
+
+/* xs */
+@media (max-width:575.99px){
+    
+}
